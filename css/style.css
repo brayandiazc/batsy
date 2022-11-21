@@ -33,3 +33,49 @@ header {
   border-radius: 100%;
   border: 2px solid #fff;
 }
+
+/* Estilos del hero */
+
+#hero {
+  position: relative;
+}
+
+#hero #profile {
+  display: inline-block;
+  width: 100%;
+}
+
+#hero .information-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  display: flex;
+  width: 100%;
+  color: #fff;
+  padding: 0 50px;
+}
+
+#hero .information-container #profile {
+  width: 200px;
+}
+
+#hero .information-container #profile img {
+  border-radius: 100%;
+}
+
+#hero .information-container .information {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#hero .information-container .information span {
+  display: inline-block;
+  color: #b5b5b5;
+  margin-bottom: 70px;
+}
+
+/* Estilos del main */
+main {
+  padding: 100px;
+}
