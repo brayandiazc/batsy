@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos generales */
+
+header {
+  background: #1f1f1f;
+  padding: 10px 50px;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* Estilos del header */
+
+#logo {
+  width: 50px;
+}
+
+#logo img {
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
