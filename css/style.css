@@ -79,3 +79,40 @@ header {
 main {
   padding: 100px;
 }
+
+main .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  list-style: none;
+}
+
+main .social-icons li {
+  margin-left: 8px;
+}
+
+main .social-icons .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-left: 8px;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+main .social-icons #Linkedin {
+  background: #0077b0;
+}
+main .social-icons #Github {
+  background: #23272d;
+}
+
+main .social-icons #Twitter {
+  background: #1da1f2;
+}
+
+main .social-icons #Youtube {
+  background: #f70000;
+}
